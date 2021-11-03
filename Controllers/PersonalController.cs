@@ -18,7 +18,9 @@ namespace ComputProject.Controllers
             personal.name = "Harold";
             personal.lastname = "Santos";
             personal.age= 19;
-
+            personal.email= "haroldsan9.9@gmail.com";
+            personal.phoneNumber=71980278;
+            personal.address="Cnt. El Jobo, Moncagua, Departamento de San Miguel";
             return View(personal);
         }
 

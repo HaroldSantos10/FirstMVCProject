@@ -2,6 +2,10 @@
 
 @model Personal
 
-@Html.LabelFor(m=>m.name, "NAME: ") @Model.name
-@Html.LabelFor(m=>m.lastname, "LASTNAME: ") @Model.lastname 
-@Html.LabelFor(m=>m.age, "AGE: ") @Model.age
+@Html.LabelFor(m=>m.name, "Name: ") @Model.name
+@Html.LabelFor(m=>m.lastname, "---Last Name: ") @Model.lastname 
+@Html.LabelFor(m=>m.age, "---Age: ") @Model.age
+@Html.LabelFor(m=>m.email, "---Email: ") @Model.email
+@Html.LabelFor(m=>m.phoneNumber, "---Phone Number: ") @Model.phoneNumber 
+@Html.LabelFor(m=>m.address, "---Address: ") @Model.address
+

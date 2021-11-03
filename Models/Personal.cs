@@ -7,5 +7,8 @@ namespace ComputProject.Models
         public string name;
         public string lastname;
         public int age;
+        public string email;
+        public int phoneNumber;
+        public string address;
     }
 }
