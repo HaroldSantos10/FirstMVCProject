@@ -39,3 +39,7 @@ C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\obj\Debug\net5.0\Comput
 C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\obj\Debug\net5.0\ComputProject.genruntimeconfig.cache
 C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\obj\Debug\net5.0\ComputProject.csproj.CopyComplete
 C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\obj\Debug\net5.0\Razor\Views\Personal\Index.cshtml.g.cs
+C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\obj\Debug\net5.0\Razor\Views\Shared\_TVstore.cshtml.g.cs
+C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\bin\Debug\net5.0\startbootstrap-sb-admin-2-gh-pages\package-lock.json
+C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\bin\Debug\net5.0\startbootstrap-sb-admin-2-gh-pages\package.json
+C:\Users\harol\Escritorio\AppsASP.NetComp2\ComputProject\bin\Debug\net5.0\startbootstrap-sb-admin-2-gh-pages\vendor\fontawesome-free\package.json
