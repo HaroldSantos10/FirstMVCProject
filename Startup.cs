@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace ComputProject
 {
@@ -24,7 +26,35 @@ namespace ComputProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            //Agrega el contexto de la base de datos
+            //especificamos con cual gestor vamos a trabajar
+            services.AddDbContext<TVsContext>(options =>
+                    options.UseMySQL(Configuration.GetConnectionString("TVsContext")));
+            //Servicio para autenticacion
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                    .AddDefaultUI()
+                    .AddEntityFrameworkStores<TVsContext>()
+                    .AddDefaultTokenProviders();
+            //Configures the aplication cookie to redirect
+            services.ConfigureApplicationCookie(options=>{
+                options.LoginPath="/Login";
+                options.AccessDeniedPath="/AccessDenied";
+                //options.ProfilePath="/Profile";
+                options.SlidingExpiration=true;
+            });
+
+            services.AddRazorPages(options=>{
+                options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "/Login");
+                options.Conventions.AddAreaPageRoute("Identity", "/Account/Register", "/Register");
+                options.Conventions.AddAreaPageRoute("Identity", "/Account/AccessDenied", "/AccessDenied");
+                options.Conventions.AddAreaPageRoute("Identity", "/Account/Manage/PersonalData", "/Profile");
+            }
+
+            );
         }
+        
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -41,9 +71,14 @@ namespace ComputProject
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseDefaultFiles();
 
             app.UseRouting();
 
+             app.UseStatusCodePages();//habilitar el codigo del estado de las páginas
+             //authenticaciton
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -51,6 +86,7 @@ namespace ComputProject
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }
