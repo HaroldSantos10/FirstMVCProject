@@ -52,6 +52,9 @@ namespace ComputProject
             }
 
             );
+
+            services.AddDbContext<TeamContext>(options =>
+                    options.UseMySQL(Configuration.GetConnectionString("TeamContext")));
         }
         
 

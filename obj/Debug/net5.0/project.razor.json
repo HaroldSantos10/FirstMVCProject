@@ -15629,8 +15629,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Figura\\Details.cshtml",
+      "TargetPath": "Views\\Figura\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Figura\\Delete.cshtml",
+      "TargetPath": "Views\\Figura\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15664,6 +15674,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Cliente\\Create.cshtml",
+      "TargetPath": "Views\\Cliente\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Shared\\_TVstore.cshtml",
       "TargetPath": "Views\\Shared\\_TVstore.cshtml",
       "FileKind": "mvc"
@@ -15671,6 +15686,11 @@
     {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Store\\Delete.cshtml",
       "TargetPath": "Views\\Store\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Figura\\Create.cshtml",
+      "TargetPath": "Views\\Figura\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15699,8 +15719,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Cliente\\Index.cshtml",
+      "TargetPath": "Views\\Cliente\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\TVs\\Edit.cshtml",
       "TargetPath": "Views\\TVs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Figura\\Edit.cshtml",
+      "TargetPath": "Views\\Figura\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15719,6 +15749,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Cliente\\Delete.cshtml",
+      "TargetPath": "Views\\Cliente\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\TVs\\Create.cshtml",
       "TargetPath": "Views\\TVs\\Create.cshtml",
       "FileKind": "mvc"
@@ -15729,8 +15764,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Documento\\Details.cshtml",
+      "TargetPath": "Views\\Documento\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Documento\\Create.cshtml",
+      "TargetPath": "Views\\Documento\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15739,8 +15784,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Documento\\Delete.cshtml",
+      "TargetPath": "Views\\Documento\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Personal\\Index.cshtml",
       "TargetPath": "Views\\Personal\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Figura\\Index.cshtml",
+      "TargetPath": "Views\\Figura\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Cliente\\Edit.cshtml",
+      "TargetPath": "Views\\Cliente\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15764,6 +15824,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Documento\\Edit.cshtml",
+      "TargetPath": "Views\\Documento\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Documento\\Index.cshtml",
+      "TargetPath": "Views\\Documento\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Store\\Create.cshtml",
       "TargetPath": "Views\\Store\\Create.cshtml",
       "FileKind": "mvc"
@@ -15771,6 +15841,11 @@
     {
       "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\harol\\Escritorio\\AppsASP.NetComp2\\ComputProject\\Views\\Cliente\\Details.cshtml",
+      "TargetPath": "Views\\Cliente\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

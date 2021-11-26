@@ -86,42 +86,29 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Log Settings
+                Other Products
             </div>
 
             <!-- Nav Item - ManageUsers Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-user-cog"></i>
-                    <span>Manage Users</span>
+                <a class="nav-link" asp-controller="Documento" asp-action="Index">
+                    <i class="fas fa-passport"></i>
+                    <span>Document</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Logs:</h6>
-                        <a class="collapse-item" href="#">Login</a>
-                        <a class="collapse-item" href="#">Register</a>
-                        <a class="collapse-item" href="#">Forgot Password</a>
-                        <!--<div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>-->
-                    </div>
-                </div>
             </li>
 
             <!-- Nav Item - Contact -->
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="far fa-envelope"></i>
-                    <span>Contact</span></a>
+                <a class="nav-link" asp-controller="Figura" asp-action="Index">
+                    <i class="fab fa-flipboard"></i>
+                    <span>Figure</span></a>
             </li>
 
             <!-- Nav Item - Personal -->
             <li class="nav-item">
-                <a class="nav-link" asp-controller="Personal" asp-action="Index" > 
-                    <i class="fas fa-info-circle"></i>
-                    <span>Personal Info</span></a>
+                <a class="nav-link" asp-controller="Cliente" asp-action="Index" > 
+                    <i class="fas fa-people-carry"></i>
+                    <span>Customer</span></a>
             </li>
 
             <!-- Divider -->
